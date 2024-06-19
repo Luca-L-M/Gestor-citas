@@ -1,4 +1,5 @@
 import './administrar_cita.css';
+import {useState, useEffect} from "react";
 import Cita from '../../components/cita';
 
 const AdministrarCita = (props) => {
