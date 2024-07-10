@@ -1,22 +1,10 @@
-import Layout from './layout';
-import React, { useState } from 'react';
-import FormularioCita from './Components/FormularioCita';
-import ListaCitas from './Components/ListaCitas';
+import Layout from '../layout';
 
-const reservas = () => {
-  const [citas, setCitas] = useState([]);
-  const agregarCita = (cita) => {
-    cita.id = new Date().getTime();
-    setCitas([...citas, cita]);
-  };
-  const eliminarCita = (id) => {
-    setCitas(citas.filter(cita => cita.id !== id));
-  };
+const Contactos = () => {
   return (
-    <div className="app-container">
-      <FormularioCita agregarCita={agregarCita} />
-      <ListaCitas citas={citas} eliminarCita={eliminarCita} />
-    </div>
+    <Layout>
+      <p>No se, espero haberte ayudado</p>
+    </Layout>
   );
 };
-export default reservas;
+export default Contactos;

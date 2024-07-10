@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Swal from 'sweetalert2';
-import styles from '../styles/listaCitas';
+import styles from '../styles/ListaCitas.css';
 
 const FormularioCita = ({ agregarCita }) => {
   const [nombreMascota, setNombreMascota] = useState('');
@@ -56,7 +56,7 @@ const FormularioCita = ({ agregarCita }) => {
   };
 
   return (
-    <div className={styles.formulario-cita}>
+    <div className={styles.formularioCita}>
       <h2>Crear mi cita</h2>
       <form onSubmit={handleSubmit}>
         <div className={styles.entrada}>

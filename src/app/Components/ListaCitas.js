@@ -1,9 +1,10 @@
 import React from 'react';
 import CitaCard from './CitaCard';
+import styles from '../styles/ListaCitas.css';
 
 const ListaCitas = ({ citas, eliminarCita }) => {
   return (
-    <div className='lista-citas'>
+    <div className={styles.listaCitas}>
       <h2>Administra tus citas</h2>
       {citas.map(cita => (
         <CitaCard
