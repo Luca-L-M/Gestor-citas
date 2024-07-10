@@ -1,0 +1,99 @@
+.app-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+.formulario-cita{
+    background: #fff;
+    color: #000;
+    padding: 20px;
+    border-radius: 8px;
+    width: 40%;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombras más pronunciadas */
+    height: fit-content;
+  }
+  
+.lista-citas {
+    background: #fff;
+    color: #000;
+    padding: 20px;
+    border-radius: 8px;
+    width: 40%;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombras más pronunciadas */
+  }
+  
+.formulario-cita h2, .lista-citas h2 {
+    margin-bottom: 20px;
+  }
+  
+.formulario-cita form div, .cita-card {
+    margin-bottom: 15px;
+  }
+  
+.formulario-cita label {
+    font-weight: bold;
+  }
+  
+.formulario-cita input,
+.formulario-cita textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+.formulario-cita textarea {
+    resize: vertical;
+  }
+  
+.formulario-cita button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+.formulario-cita button:hover {
+    background-color: #45a049;
+  }
+  
+.entrada {
+    display: flex;
+    flex-direction: column;
+  }
+  
+.cita-card {
+    background: #f4f4f4;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombras más pronunciadas */
+  }
+  
+.cita-card p {
+    margin: 5px 0;
+  }
+  
+.cita-card button {
+    background: #e74c3c;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+.cita-card button:hover {
+    background: #c0392b;
+  }

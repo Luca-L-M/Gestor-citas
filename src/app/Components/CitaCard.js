@@ -1,5 +1,6 @@
 import React from 'react';
 import Swal from 'sweetalert2';
+import styles from '../styles/listaCitas';
 
 const CitaCard = ({ cita, eliminarCita }) => {
   const handleDelete = () => {
@@ -25,7 +26,7 @@ const CitaCard = ({ cita, eliminarCita }) => {
   };
 
   return (
-    <div className="cita-card">
+    <div className={styles.cita-card}>
       <p>Mascota: <span>{cita.nombreMascota}</span></p>
       <p>Dueño: <span>{cita.nombreDueno}</span></p>
       <p>Fecha: <span>{cita.fecha}</span></p>

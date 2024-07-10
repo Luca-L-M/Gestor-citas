@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Swal from 'sweetalert2';
+import styles from '../styles/listaCitas';
 
 const FormularioCita = ({ agregarCita }) => {
   const [nombreMascota, setNombreMascota] = useState('');
@@ -55,10 +56,10 @@ const FormularioCita = ({ agregarCita }) => {
   };
 
   return (
-    <div className='formulario-cita'>
+    <div className={styles.formulario-cita}>
       <h2>Crear mi cita</h2>
       <form onSubmit={handleSubmit}>
-        <div className="entrada">
+        <div className={styles.entrada}>
           <label>Nombre Mascota</label>
           <input
             type="text"
@@ -67,7 +68,7 @@ const FormularioCita = ({ agregarCita }) => {
           />
         </div>
 
-        <div className="entrada">
+        <div className={styles.entrada}>
           <label>Nombre Dueño</label>
           <input
             type="text"
@@ -76,7 +77,7 @@ const FormularioCita = ({ agregarCita }) => {
           />
         </div>
 
-        <div className="entrada">
+        <div className={styles.entrada}>
           <label>Fecha</label>
           <input
             type="date"
@@ -85,7 +86,7 @@ const FormularioCita = ({ agregarCita }) => {
           />
         </div>
 
-        <div className="entrada">
+        <div className={styles.entrada}>
           <label>Hora</label>
           <input
             type="time"
@@ -94,7 +95,7 @@ const FormularioCita = ({ agregarCita }) => {
           />
         </div>
 
-        <div className="entrada">
+        <div className={styles.entrada}>
           <label>Síntomas</label>
           <textarea
             value={sintomas}

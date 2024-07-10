@@ -1,0 +1,25 @@
+.navbar {
+    width: 200px;
+    height: 100vh;
+    position: fixed;
+    background-color: #6dc0f7;
+    padding: 20px;
+}
+
+.navbar h2 {
+    text-align: center;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.navbar ul li {
+    margin: 20px 0;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #4e515798;
+}
