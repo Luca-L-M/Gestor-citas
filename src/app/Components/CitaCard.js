@@ -1,6 +1,6 @@
 import React from 'react';
 import Swal from 'sweetalert2';
-import styles from '../styles/ListaCitas.css';
+import styles from '../styles/listaCitas.module.css';
 
 const CitaCard = ({ cita, eliminarCita }) => {
   const handleDelete = () => {

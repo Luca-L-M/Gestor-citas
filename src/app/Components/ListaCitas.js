@@ -1,6 +1,6 @@
 import React from 'react';
 import CitaCard from './CitaCard';
-import styles from '../styles/ListaCitas.css';
+import styles from '../styles/listaCitas.module.css';
 
 const ListaCitas = ({ citas, eliminarCita }) => {
   return (

@@ -1,11 +1,10 @@
-import Layout from '../layout';
 
 const Quienes_somos = () => {
   return (
-    <Layout>
+    <div>
       <h2>Somos los creadores:</h2>
       <p>Luca Listingart Maekanehisa y Julián R. Lifschitz</p>
-    </Layout>
+    </div>
   );
 };
 export default Quienes_somos;

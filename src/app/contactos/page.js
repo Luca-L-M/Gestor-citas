@@ -1,10 +1,10 @@
-import Layout from '../layout';
+
 
 const Contactos = () => {
   return (
-    <Layout>
+    <div>
       <p>No se, espero haberte ayudado</p>
-    </Layout>
+    </div>
   );
 };
 export default Contactos;
