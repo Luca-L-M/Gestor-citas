@@ -3,6 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import FormularioCita from '../Components/FormularioCita';
 import ListaCitas from '../Components/ListaCitas';
+import styles from '../styles/listaCitas.module.css';
 
 const Reservas = () => {
   // Lee las citas desde localStorage al iniciar el componente
@@ -26,7 +27,7 @@ const Reservas = () => {
   };
 
   return (
-    <div className="app-container">
+    <div className={styles.container}>
       <FormularioCita agregarCita={agregarCita}/>
       <ListaCitas citas={citas} eliminarCita={eliminarCita} />
     </div>
